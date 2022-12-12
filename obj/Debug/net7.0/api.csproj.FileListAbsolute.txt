@@ -1,0 +1,6 @@
+C:\Users\SENAI\Documents\Desenvolvimento-API\obj\Debug\net7.0\api.csproj.AssemblyReference.cache
+C:\Users\SENAI\Documents\Desenvolvimento-API\obj\Debug\net7.0\api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SENAI\Documents\Desenvolvimento-API\obj\Debug\net7.0\api.AssemblyInfoInputs.cache
+C:\Users\SENAI\Documents\Desenvolvimento-API\obj\Debug\net7.0\api.AssemblyInfo.cs
+C:\Users\SENAI\Documents\Desenvolvimento-API\obj\Debug\net7.0\api.csproj.CoreCompileInputs.cache
+C:\Users\SENAI\Documents\Desenvolvimento-API\obj\Debug\net7.0\api.MvcApplicationPartsAssemblyInfo.cache
