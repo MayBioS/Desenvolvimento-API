@@ -17,7 +17,8 @@ namespace API.Contexts
         {
             if (!optionsBuilder.isConfigured)
             {
-                optionsBuilder.UseSqlServer("DataSource=DESKTOP-IA6OFRA\MSSQLSERVER; initial catalog=Livraria; Integrated Security=true");
+                //altere o codigo do desktop para o do seu dispositivo
+                optionsBuilder.UseSqlServer("DataSource=DESKTOP-SL507-17\MSSQLSERVER; initial catalog=Livraria; Integrated Security=true");
             }
         }
         public DbSet<Livro> Livro { get; set; }
