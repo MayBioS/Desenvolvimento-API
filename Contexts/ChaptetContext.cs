@@ -1,5 +1,5 @@
-using API.Models;
-using Microsoft.EntityFrameworksCore;
+using Api.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace API.Contexts
 {
@@ -7,18 +7,19 @@ namespace API.Contexts
     {
         public ChapterContext()
         {
-
         }
-        public ChapterContext(DbContextOptions<ChapterContext> options) : base(options)
+
+        public ChapterContext(DbContextOptions<ChapterContext> options)
+         : base(options)
         {
-
         }
+        
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            if (!optionsBuilder.isConfigured)
+            if (!optionsBuilder.IsConfigured)
             {
                 //altere o codigo do desktop para o do seu dispositivo
-                optionsBuilder.UseSqlServer("DataSource=DESKTOP-SL507-17\MSSQLSERVER; initial catalog=Livraria; Integrated Security=true");
+                optionsBuilder.UseSqlServer("DataSource=DESKTOP-SL507-17\\MSSQLSERVER; initial catalog=Livraria; Integrated Security=true");
             }
         }
         public DbSet<Livro> Livro { get; set; }

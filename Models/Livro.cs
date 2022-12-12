@@ -1,4 +1,4 @@
-nasmespace Api.Models
+namespace Api.Models
 {
     public class Livro
         {
